@@ -132,9 +132,5 @@ Use GitHub Issues or Projects for task tracking
 ---
 
 ### What's New?
-- **Step-by-step guidance for editing code using GitHub Desktop**: I added more detailed instructions on how to work with the code editor and how GitHub Desktop automatically detects your changes.
-- **Updated commit instructions**: Added clarification on staging files for commit through the **Changes** tab in GitHub Desktop.
-  
-This updated guide should now cover all necessary aspects of using **GitHub Desktop (GUI)** for both **code editing** and **pushing changes**!
-
-Let me know if you'd like this saved as a `.md` file or need further adjustments.
+- Step-by-step guidance for editing code using GitHub Desktop: I added more detailed instructions on how to work with the code editor and how GitHub Desktop automatically detects your changes.
+- Updated commit instructions: Added clarification on staging files for commit through the Changes tab in GitHub Desktop.
