@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sapao E-Commerce | Guiuan, Eastern Samar</title>
+  <style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    background: #f5f5f5;
+    color: #333;
+  }
+
+  /* Header with Full Banner */
+  .main-header {
+    position: relative;
+    text-align: center;
+  }
+
+  .header-banner {
+    background: url('Sapao.jpg') center/cover no-repeat;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header-banner::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
+  .header-content {
+    position: relative;
+    z-index: 1;
+    color: white;
+    padding: 2rem;
+  }
+
+  .header-content h2 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  }
+
+  .header-content p {
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+  }
+
+  /* Hero Section */
+  .hero {
+    background: #003366;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+  }
+
+  .hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .hero p {
+    font-size: 1.2rem;
+  }
+
+  /* Products Section */
+  .products {
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    background: white;
+  }
+
+  .product-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    padding: 1rem;
+    text-align: center;
+    transition: transform 0.3s;
+  }
+
+  .product-card:hover {
+    transform: translateY(-5px);
+  }
+
+  .product-card img {
+    max-width: 100%;
+    border-radius: 8px;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  /* Promo Banner with Photo */
+  .promo-banner {
+    background: url('Sapao.jpg') center/cover no-repeat;
+    color: white;
+    padding: 4rem 2rem;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+    position: relative;
+  }
+
+  .promo-banner::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-color: rgba(0, 100, 0, 0.6);
+  }
+
+  .promo-content {
+    position: relative;
+    z-index: 1;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  /* Contact Section */
+  .contact {
+    padding: 2rem;
+    text-align: center;
+    background: #eeeeee;
+  }
+
+  /* Footer */
+  footer {
+    background: #003366;
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: 2rem;
+  }
+
+  /* Responsive Design */
+  @media(max-width: 768px) {
+    .header-banner {
+      height: 300px;
+    }
+    
+    .header-content h2 {
+      font-size: 2rem;
+    }
+    
+    .header-content p {
+      font-size: 1.2rem;
+    }
+    
+    .hero h1 {
+      font-size: 2rem;
+    }
+    
+    .promo-banner {
+      font-size: 1.3rem;
+      padding: 3rem 1.5rem;
+    }
+  }
+
+  @media(max-width: 480px) {
+    .header-banner {
+      height: 250px;
+    }
+    
+    .header-content h2 {
+      font-size: 1.8rem;
+    }
+    
+    .promo-banner {
+      font-size: 1.1rem;
+      padding: 2rem 1rem;
+    }
+  }
+
+  /* 🔽 Inserted Buttons for Banner */
+  .header-buttons {
+    margin-top: -2rem; /* Adjusted to bring buttons higher */
+  }
+
+  .banner-btn {
+    background-color: #ffcc00;
+    color: #003366;
+    padding: 0.7rem 1.5rem;
+    margin: 0 0.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+
+  .banner-btn:hover {
+    background-color: #ffdb4d;
+  }
+</style>
+
+</head>
+<body>
+
+  <header class="main-header">
+  <div class="header-banner">
+    <div class="header-content">
+      <!-- Buttons moved to top -->
+      <div class="header-buttons">
+        <a href="#where-to-go" class="banner-btn">Where to Go</a>
+        <a href="#explore-nature" class="banner-btn">Explore Nature</a>
+      </div>
+      
+      <h2>Sapao E-Commerce</h2>
+      <p>Barangay Sapao, Guiuan, Eastern Samar</p>
+    </div>
+  </div>
+</header>
+
+
+  <section class="hero">
+    <h1>Local Deals. Island Prices.</h1>
+    <p>Support local sellers and enjoy affordable products near you!</p>
+  </section>
+
+  <section class="products">
+    <div class="product-card">
+      <img src="https://source.unsplash.com/300x300/?rice,sacks" alt="Rice">
+      <h3>Sack of Rice</h3>
+      <p>₱2,000 / 50kg</p>
+    </div>
+    <div class="product-card">
+      <img src="https://source.unsplash.com/300x300/?fish,market" alt="Fresh Fish">
+      <h3>Fresh Fish (per kilo)</h3>
+      <p>₱200</p>
+    </div>
+    <div class="product-card">
+      <img src="https://source.unsplash.com/300x300/?vegetables,market" alt="Vegetables">
+      <h3>Local Vegetables</h3>
+      <p>₱50 – ₱100</p>
+    </div>
+  </section>
+
+  <section class="promo-banner">
+    <div class="promo-content">
+      🛒 FREE DELIVERY within Sapao for orders over ₱500!
+    </div>
+  </section>
+
+  <section class="contact">
+    <h3>Need Help or Want to Sell?</h3>
+    <p>Contact us at <strong>sapaocommerce@gmail.com</strong> or message our FB Page</p>
+  </section>
+
+  <footer>
+    &copy; 2025 Sapao E-Commerce | Made with ❤️ in Eastern Samar
+  </footer>
+
+</body>
+</html>
