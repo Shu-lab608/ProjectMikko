@@ -93,7 +93,7 @@ body {
 /* hero section */
 .hero-image {
   display: flex;
-  background-image: url(Images/IMG_9175.JPG);
+  background-image: url(assets/IMG_9175.JPG);
   height: 99vh;
   height: 99dvh;
   background-position: center;
@@ -140,7 +140,7 @@ body {
 /* experience section */
 .experience-image {
   display: flex;
-  background-image: url(Images/IMG_9176.JPG);
+  background-image: url(assets/IMG_9176.JPG);
   height: 99vh;
   height: 99dvh;
   background-position: center;
@@ -310,7 +310,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url(Images/pagasa\ dost.jpg);
+  background-image: url(assets/pagasa\ dost.jpg);
   background-size: cover;
   background-position: center;
   transition: transform 0.4s ease;
@@ -328,7 +328,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url(Images/sta.cruz\ parish.jpg);
+  background-image: url(assets/sta.cruz\ parish.jpg);
   background-size: cover;
   background-position: center;
   transition: transform 0.4s ease;
@@ -346,7 +346,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url(Images/coca.jpg);
+  background-image: url(assets/coca.jpg);
   background-size: cover;
   background-position: center;
   transition: transform 0.4s ease;
@@ -364,7 +364,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url(Images/dumpao.jpg);
+  background-image: url(assets/dumpao.jpg);
   background-size: cover;
   background-position: center;
   transition: transform 0.4s ease;
@@ -382,7 +382,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url(Images/pagasa\ dost.jpg);
+  background-image: url(assets/pagasa\ dost.jpg);
   background-size: cover;
   background-position: center;
   transition: transform 0.4s ease;
@@ -400,7 +400,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url(Images/sta.cruz\ parish.jpg);
+  background-image: url(assets/sta.cruz\ parish.jpg);
   background-size: cover;
   background-position-x: left;
   transition: transform 0.4s ease;
